@@ -18,5 +18,9 @@ public class BankInterestCalculator {
         rateOfInterest = input.nextFloat();
         System.out.println("Enter time in years: ");
         time = input.nextInt();
+        
+        System.out.println("Simple interest earned: " + (float)((principalAmount * time * rateOfInterest) / 100));
+        
+        input.close();
     }
 }
