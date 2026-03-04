@@ -13,5 +13,10 @@ public class CurrencyConverter {
         
         System.out.println("Enter amount in USD: ");
         usdAmount = input.nextInt();
+        
+        System.out.println("Amount in Euro: " + (float)(usdAmount * 0.92));
+        System.out.println("Amount in GBP: " + (float)(usdAmount * 0.75));
+        
+        input.close();
     }
 }
