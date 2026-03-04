@@ -22,6 +22,8 @@ public class GradeAverageCalculator {
         System.out.println("Enter score 3: ");
         score3 = input.nextInt();
         
+        System.out.println("Average: " + ((score1 + score2 + score3) / 2));
+        
         input.close();
     }
 }
