@@ -9,7 +9,9 @@ public class TimeConverter {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
+        int hours;
         
-        
+        System.out.println("Enter time in hours: ");
+        hours = input.nextInt();
     }
 }
