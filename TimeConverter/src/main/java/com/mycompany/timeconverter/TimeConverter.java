@@ -13,5 +13,10 @@ public class TimeConverter {
         
         System.out.println("Enter time in hours: ");
         hours = input.nextInt();
+        
+        System.out.println("Converted to minutes: " + (hours * 60));
+        System.out.println("Converted to seconds: " + (hours * 3600));
+        
+        input.close();
     }
 }
