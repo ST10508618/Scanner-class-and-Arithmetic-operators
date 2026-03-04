@@ -15,5 +15,7 @@ public class BMICalculator {
         weight = input.nextFloat();
         System.out.println("Enter height in meters (m): ");
         height = input.nextFloat();
+        
+        System.out.println("BMI value: " + (weight / (height * height)));
     }
 }
