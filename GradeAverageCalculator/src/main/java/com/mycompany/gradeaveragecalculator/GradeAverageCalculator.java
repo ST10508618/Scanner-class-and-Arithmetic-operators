@@ -10,9 +10,11 @@ public class GradeAverageCalculator {
     public static void main(String[] args) {
         // Create scanner class to get input from user
         Scanner input = new Scanner(System.in);
+        int score1, score2, score3;
         
         // Ask user for input
         System.out.println("Enter score 1: ");
+        
         
         System.out.println("Enter score 2: ");
         
