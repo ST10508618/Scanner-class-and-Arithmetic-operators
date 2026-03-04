@@ -8,6 +8,16 @@ import java.util.Scanner;
 public class GradeAverageCalculator {
 
     public static void main(String[] args) {
+        // Create scanner class to get input from user
         Scanner input = new Scanner(System.in);
+        
+        // Ask user for input
+        System.out.println("Enter score 1: ");
+        
+        System.out.println("Enter score 2: ");
+        
+        System.out.println("Enter score 3: ");
+        
+        input.close();
     }
 }
