@@ -8,6 +8,10 @@ import java.util.Scanner;
 public class CurrencyConverter {
 
     public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int usdAmount;
         
+        System.out.println("Enter amount in USD: ");
+        usdAmount = input.nextInt();
     }
 }
